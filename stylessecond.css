@@ -1,0 +1,43 @@
+body{
+  background: rgb(255,139,220);
+background: linear-gradient(0deg, rgba(255,139,220,1) 0%, rgba(252,252,95,1) 100%, rgba(0,255,249,1) 100%);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-align: center;
+    text-shadow: 1.5px 1.5px pink;
+    margin-top: 3em
+}
+
+h2{
+    text-align: center;
+    color: pink;
+    text-shadow: 1.5px 1.5px white;
+    font-size: 30px
+}
+
+.button{
+    color:#fff;
+    font-weight:bold;
+    padding:20px;
+    text-align: center;
+    border:2px solid #fff;
+    border-radius: 30px;
+    width: 600px;
+    width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px; 
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+    text-transform: lowercase;
+    color: white;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset = 'utf-8'>
+        <title> User Interface Exercises. | Anjali Chary </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <link rel = "stylesheet" href = "portfolio.css">
+        <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+<!-- title> -->
+    <h1> <a href = "index.html">anjalichary</a></h1>
+    
+<!-- navigation bar> -->
+    <div class="topnav">
+        <a href="about.html">ABOUT</a>
+        <a href="graphics.html">GRAPHICS</a>
+        <a href="index.html">DESIGN + TECH </a>
+    </div>
+
+<!--intro>-->
+
+    <h3> Selected UI Exercises ↓ </h3>
+     <div class = "intro">
+        <h2> A collection of <mark class = "coral"> UI exercises</mark>, some inspired by the 100 day UI challenge. <em> (in progress)</em></h2>
+    </div>
+
+
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="grocery.jpg" style="width:100%">
+      <img class="mySlides" src="signup1.jpg" style="width:100%">
+      <img class="mySlides" src="smartwayui.jpg" style="width:100%">
+      <img class="mySlides" src="Frame%205.jpg" style="width:100%">
+      <img class="mySlides" src="calcui.jpg"style="width:100%">
+      <img class="mySlides" src="groceryapp2.jpg"style="width:100%">
+
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <footer>
+           <h11> © 2020 Anjali Chary </h11>
+    </footer>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>

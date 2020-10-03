@@ -1,0 +1,107 @@
+.title{
+display: flex;
+align-items: flex-start;
+margin-top: 100px;
+}
+
+.hindi{
+display: flex;
+}
+
+.by{
+align-items: baseline;
+display: flex; 
+align-content: space-around;
+color: grey;
+}
+
+.button{
+background: linear-gradient(0deg, rgba(249,77,151,1) 0%, rgba(241,196,215,1) 100%); 
+font-family: "Futura", sans-serif;
+font-size: 15px;
+height: 50px;
+width: 150px; 
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+margin: 10px 12px;
+border-radius: 56px;
+position: absolute;
+right: 970px;
+top: 490px;
+margin-bottom: 600px;
+}
+
+.image{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+body{
+    background: rgb(255,255,255);
+}
+
+
+
+h1 {
+    
+    color: grey;
+    font-weight: 300;
+    text-align: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+  text-transform:capitalize;   
+    color: grey;
+    font-weight:300;
+    font-size: 28px;
+}
+
+h5{
+    text-align:left; 
+    color: grey;
+    font-weight:100; 
+}
+
+
+body
+{
+    font-family: "Futura", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+    color: grey;
+}
+
+.custom-list {
+    list-style-image: url('panipuribullet1.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
